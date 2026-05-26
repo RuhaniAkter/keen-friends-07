@@ -18,7 +18,7 @@ function Navbar() {
           <span className="font-bold">Keen</span>
           <span className="font-normal text-[#244D3F]">Keeper</span>
         </div>
-
+        {/* button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 focus:outline-none"
