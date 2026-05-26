@@ -4,22 +4,19 @@ import { Plus } from "lucide-react";
 import FriendCard from "./FriendCard";
 
 export default function FriendshipDashboard() {
-  // 1. RootLayout থেকে friendsList, totalStats এবং গ্লোবাল setLoading ফাংশনটি আনা হলো
   const { friendsList, totalStats, setLoading } = useOutletContext();
   const navigate = useNavigate();
 
-  // 2. পেজ লোড হওয়ার সময় গ্লোবাল স্পিনার চালু করা
   useEffect(() => {
-    setLoading(true); // লোডিং শুরু
+    setLoading(true);
 
     const timer = setTimeout(() => {
-      setLoading(false); // ১ সেকেন্ড পর লোডিং শেষ
+      setLoading(false);
     }, 1000);
 
     return () => clearTimeout(timer);
   }, [setLoading]);
 
-  // মেট্রিক্স ক্যালকুলেশন
   const totalFriends = friendsList.length;
   const onTrackCount = friendsList.filter(
     (f) => f.status === "on_track",
