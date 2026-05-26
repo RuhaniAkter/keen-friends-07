@@ -1,4 +1,4 @@
-1. Project Name: KEEN-REIENDS-07
+1. Project Name: Keen-friends-07
 
 2. Short Description: A web app that tracks and manages friendships, helping you remember when to call or text friends.
 
