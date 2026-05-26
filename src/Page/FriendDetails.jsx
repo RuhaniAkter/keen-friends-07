@@ -37,7 +37,6 @@ export default function FriendDetails() {
           </div>
           <h2 className="text-xl font-bold text-slate-800">{friend.name}</h2>
 
-          {/* স্ট্যাটাস ব্যাজ (Overdue / On Track) */}
           <span
             className={`mt-2 px-3 py-0.5 text-xs font-bold rounded-full uppercase tracking-wider ${
               friend.status === "overdue"
@@ -58,6 +57,7 @@ export default function FriendDetails() {
           <span className="mt-2 text-xs text-slate-400">
             Preferred: {friend.preferred_channel || "email"}
           </span>
+          {/* button */}
 
           <div className="w-full mt-6 space-y-2 pt-4 border-t border-slate-50">
             <button className="w-full py-2.5 px-4 text-sm font-medium text-slate-600 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl transition-colors flex items-center justify-center gap-2">
