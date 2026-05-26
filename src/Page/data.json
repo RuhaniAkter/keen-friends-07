@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150",
+    "email": "david.kim1@example.com",
+    "days_since_contact": 62,
+    "status": "almost_due",
+    "tags": ["WORK"],
+    "bio": "Energetic lead with a knack for creative UI feedback.",
+    "goal": 60,
+    "next_due_date": "2026-05-25"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=150&h=150",
+    "email": "emma.wilson1@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["FAMILY"],
+    "bio": "Creative thinker who loves weekend adventures.",
+    "goal": 60,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=150&h=150",
+    "email": "lisa.nakamura1@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["WORK"],
+    "bio": "Detail-oriented designer with a passion for travel.",
+    "goal": 60,
+    "next_due_date": "2026-05-05"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=150&h=150",
+    "email": "james.wright1@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Adventurer and hobbyist photographer.",
+    "goal": 60,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150",
+    "email": "david.kim2@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["WORK"],
+    "bio": "Tech enthusiast with a love for side projects.",
+    "goal": 60,
+    "next_due_date": "2026-05-12"
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=150&h=150",
+    "email": "emma.wilson2@example.com",
+    "days_since_contact": 62,
+    "status": "on_track",
+    "tags": ["FAMILY"],
+    "bio": "Devoted mom and part-time yoga instructor.",
+    "goal": 60,
+    "next_due_date": "2026-06-10"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&h=150",
+    "email": "lisa.nakamura2@example.com",
+    "days_since_contact": 62,
+    "status": "on_track",
+    "tags": ["WORK"],
+    "bio": "Software engineer who enjoys hiking on weekends.",
+    "goal": 60,
+    "next_due_date": "2026-06-08"
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150",
+    "email": "james.wright2@example.com",
+    "days_since_contact": 62,
+    "status": "almost_due",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Freelance writer and avid traveler.",
+    "goal": 60,
+    "next_due_date": "2026-05-27"
+  },
+  {
+    "id": 9,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150",
+    "email": "david.kim3@example.com",
+    "days_since_contact": 62,
+    "status": "almost_due",
+    "tags": ["WORK"],
+    "bio": "Product manager who thrives in fast-paced environments.",
+    "goal": 60,
+    "next_due_date": "2026-05-26"
+  },
+  {
+    "id": 10,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150",
+    "email": "emma.wilson3@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["FAMILY"],
+    "bio": "Community organizer with a love for cooking.",
+    "goal": 60,
+    "next_due_date": "2026-05-08"
+  }
+]
