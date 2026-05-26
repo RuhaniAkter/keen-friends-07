@@ -12,6 +12,7 @@ export default function Footer() {
           Your personal shelf of meaningful connections. Browse, tend, and
           nurture the relationships that matter most.
         </p>
+        {/* social link */}
         <p className="mt-6 mb-3 text-sm">Social Links</p>
         <div className="flex justify-center gap-3">
           <a
@@ -35,7 +36,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* রেসপনসিভ বটম বার */}
+      {/* responsive button */}
       <div className="border-t border-white/15 pt-5 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 text-xs text-white/50 text-center md:text-left">
         <span>© 2026 KeenKeeper. All rights reserved.</span>
         <div className="flex flex-wrap justify-center gap-4 md:gap-6">

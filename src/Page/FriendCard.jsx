@@ -41,7 +41,7 @@ export default function FriendCard({ friend, onClick }) {
       <p className="text-xs text-gray-400 mt-1 font-medium">
         {friend.days_since_contact}d ago
       </p>
-
+      {/* map */}
       <div className="flex flex-wrap justify-center gap-1.5 mt-4 min-h-6">
         {friend.tags.map((tag, index) => (
           <span
